@@ -1,7 +1,7 @@
 resource "xray_security_policy" "all-critical" {
   name        = "all_critical_vulnerabilities"
   type        = "security"
-  description = "Policy for blocking critical vulnerabilities and CVSS 9+ threats"  # Explicitly set description
+  description = "Policy  for blocking critical vulnerabilities and CVSS 9+ threats"  # Explicitly set description
   project_key = "testproj"
 
 
